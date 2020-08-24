@@ -1,0 +1,31 @@
+\documentclass[brazil, a4paper, 14pt]{article}
+
+\include{packages}
+\geometry{a4paper,left=3cm,right=2cm,top=3cm,bottom=3cm}
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{\includegraphics[width=0.8cm]{imagens/celero_logo.jpeg}}
+\rhead{Instalando Debian com criptografia}
+\rfoot{Página \thepage}
+
+\newcommand\todo[1]{\textcolor{red}{Alessandro: #1}}
+
+%   For Shell Scripts
+\setminted[bash]{
+  frame=lines,
+  framesep=2mm,
+  baselinestretch=1.2,
+  fontsize=\footnotesize,
+  linenos,
+  breaklines
+}
+
+\begin{document}
+    \include{0-capa}
+    \tableofcontents
+    
+    \input{man}
+    \clearpage
+  
+\end{document}

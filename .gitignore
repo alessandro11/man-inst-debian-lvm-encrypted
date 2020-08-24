@@ -1,0 +1,9 @@
+\#*
+.\#*
+*\#
+.*~
+*~
+.projectile
+build/
+_minted-main/
+_minted-man-inst-criptografado/
