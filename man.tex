@@ -154,6 +154,14 @@ de criptografia de disco e seu usuário, ou seja, dentro da sua área de
 desktop, execute o seguinte comando a partir de um terminal como
 usuário \textbf{root}.
 
+Garanta que os programas abaixo estão instalados:
+
+\begin{verbatim}
+$ apt install dmidecode util-linux
+\end{verbatim}
+
+Execute o comando abaixo e envie ao seu gestor:
+
 \begin{verbatim}
 $ dmidecode -t 1,2; blkid
 
